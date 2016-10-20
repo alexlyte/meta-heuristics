@@ -1,0 +1,14 @@
+{
+  "name": "meta-heuristics",
+  "version": "1.0.0",
+  "description": "## User Interface",
+  "main": "practice.problems.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
