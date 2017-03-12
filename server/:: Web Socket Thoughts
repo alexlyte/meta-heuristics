@@ -1,0 +1,10 @@
+ // Web Socket Thoughts
+
+ We have seen that you can establish a connection between 
+ the client and the server, and essentially send data to 
+ the server, which the server can then process and send back. 
+ It seems like this interaction can happen very quickly, 
+ which means that it could probably send back run results 
+ in real time. 
+
+ For the metaheuristics application, this means that I can, on go, connect to a web service through a socket. This means that I can send a job to the server via a connection. When the socket receives the job message, it can kick off a job. The job can then send back data as each iteration is evaluated. 

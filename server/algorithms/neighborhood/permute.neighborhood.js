@@ -1,6 +1,6 @@
 
 var createPermutationSet = function(searchParams){
-	var init = searchParams.objective_function.params.inital_value;
+	var init = searchParams.objective_function.params.initial_value;
 	var neighborhood_size = searchParams.neighborhood.params.size_of_neighborhood;
 	var searchConstraint = searchParams.search_type.run;
 
@@ -59,6 +59,6 @@ var createPermutationValues = function(set, sequence){
 
 exports.createNewSet = function(searchParams, searchConstraint){
 	var pset = createPermutationSet(searchParams);
-	var perms = createPermutationValues(pset,searchParams.objective_function.params.inital_value);
+	var perms = createPermutationValues(pset,searchParams.objective_function.params.initial_value);
 	return {neighborhood : perms, changes : pset}
 };

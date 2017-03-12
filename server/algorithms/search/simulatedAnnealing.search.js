@@ -21,8 +21,8 @@ exports.run = function(current_best, new_value, params){
 			var delta = current_best - new_value;
 			var exp_p = Math.exp((delta/params.T))
 			// console.log()
-			console.log("rand_prob: " + rand_prob)
-			console.log("exp_p: " + exp_p)
+			// console.log("rand_prob: " + rand_prob)
+			// console.log("exp_p: " + exp_p)
 			return exp_p > rand_prob
 		// } else {
 		// 	return false

@@ -4,11 +4,16 @@
   "description": "## User Interface",
   "main": "practice.problems.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "problem" : "node server/algorithms/problems/main.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bower": "^1.7.9"
+    "bower": "^1.7.9",
+    "progress-promise": "0.0.5",
+    "q": "^1.4.1",
+    "ws": "^1.1.1"
   }
 }

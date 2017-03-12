@@ -2,7 +2,7 @@
 
 ## User Interface
 
-### Problem Definition Stage
+### Problem Definition Stage (should tell you how big the solution space is)
 	* Optimize a Function, minimize tardiness
 	* Sequence jobs with deadlines, minimize function
 	* Assign jobs to machines, minimize setup time
@@ -12,6 +12,7 @@
 	* travelling salesman
 	* capacitated spanning tree
 	* flexible flow shop
+
 
 
 ### Choose a Heuristic Search method

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+
+	  <script 
+	  	src="./bower_components/angular/angular.min.js">
+	  </script>
+
+	  <script 
+	  	src="./bower_components/angular-websocket/dist/angular-websocket.js">		
+	  </script>
+
+	  <script
+	  	src="./lib/main.js">
+	  </script>
+
+  </head>
+  <body>
+	  <section ng-controller="SomeController">
+	  	<ul ng-repeat="data in MyData.collection track by $index" >
+	  	  <li> {{ data }} </li>
+	  	</ul>
+	  </section>
+  </body>
+</html>
+
+

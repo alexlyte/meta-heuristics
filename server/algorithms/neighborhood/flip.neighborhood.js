@@ -55,15 +55,15 @@ var createPermutationValues = function(set, sequence){
 	var sequence_split = sequence.split("");
 	var sequence_length = sequence_split.length;
 	set.forEach(function(s,i){
-		console.log("sequence_split")
-		console.log(sequence_split[s])
+		// console.log("sequence_split")
+		// console.log(sequence_split[s])
 		var switched_bit = sequence_split[s];
 		if(switched_bit === "0"){
 			sequence_split[s] = 1
 		} else if(switched_bit === "1"){
 			sequence_split[s] = 0
 		};
-		console.log(sequence_split)
+		// console.log(sequence_split)
 		var sq = sequence_split.join("");
 		new_set.push(sq);
 	});

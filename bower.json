@@ -1,0 +1,24 @@
+{
+  "name": "meta-heuristics",
+  "description": "## User Interface",
+  "main": "server.js",
+  "authors": [
+    "alexlyte <alexanderlyte@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/alexlyte/meta-heuristics",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "0.3.1",
+    "angular-websocket": "~2.0.0"
+  }
+}
