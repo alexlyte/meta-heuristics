@@ -1,38 +1,22 @@
-# EasyPlan Development Plan
+# MetaHeuristics Library
 
-## User Interface
-
-### Problem Definition Stage (should tell you how big the solution space is)
-	* Optimize a Function, minimize tardiness
-	* Sequence jobs with deadlines, minimize function
-	* Assign jobs to machines, minimize setup time
-	* -- Eventually, for midterm --
-	* flow shop, minimize tardiness
-	* job shop with resequencing
-	* travelling salesman
-	* capacitated spanning tree
-	* flexible flow shop
+Implement several useful metaheuristics, including Tabu Search, Simulated Annealing, GRASP, and ATC. 
+Example problems from GMU's Operations Research Midterm exam can be run with the followinf commands: 
 
 
-
-### Choose a Heuristic Search method
-	* Tabu Search
-	* Simulated Annealing
-	* GRASP
-	* -- Eventually, for midterm --
-	* ATC
-	* Shifting Bottleneck
-	* PF
+git clone https://github.com/alexlyte/meta-heuristics.git
+cd meta-heuristics
+npm install
 
 
-### Choose search parameters
-	* alg params
-	* meta-params 
-	** initial solution
-	** search time limit
+npm run problem hw1
+npm run problem hw2
+npm run problem hw3
+npm run problem hw4
+npm run problem hw5
+npm run problem hw6a
+npm run problem hw6b
+npm run problem hw7
+npm run problem hw8
 
-
-### Run search (should output best results as you go)
-
-### Display Results 
 
