@@ -9,14 +9,14 @@ cd meta-heuristics
 npm install
 
 
-npm run problem hw1
-npm run problem hw2
-npm run problem hw3
-npm run problem hw4
-npm run problem hw5
-npm run problem hw6a
-npm run problem hw6b
-npm run problem hw7
-npm run problem hw8
+- npm run problem hw1
+- npm run problem hw2
+- npm run problem hw3
+- npm run problem hw4
+- npm run problem hw5
+- npm run problem hw6a
+- npm run problem hw6b
+- npm run problem hw7
+- npm run problem hw8
 
 
